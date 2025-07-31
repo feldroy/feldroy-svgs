@@ -201,3 +201,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Generated image files
+*.png
+*.jpg
+*.gif
+*.webp
+*.ico
