@@ -5,6 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "air>=0.17.0",
     "cairosvg>=2.8.2",
+    "fastapi[standard]>=0.116.1",
     "pillow>=11.3.0",
 ]
