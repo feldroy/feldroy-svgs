@@ -2,7 +2,7 @@
 <svg viewBox="0 0 793.74998 793.75" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000" flood-opacity="0.25"/>
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000" flood-opacity="0.5"/>
     </filter>
   </defs>
   <title>Feldroy Logo Square</title>
