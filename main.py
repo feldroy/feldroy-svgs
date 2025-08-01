@@ -12,7 +12,16 @@ def index():
         air.Title("Feldroy SVGs"),
         air.H1("The Feldroy logo as SVG"),
         air.P("This page contains the Feldroy logo in SVG format."),
+        
         air.Img(src="/static/feldroy-logo-square.svg", alt="Feldroy Logo", width=200, height=200),
+
+        air.Div(
+            air.A(
+                "Download SVG",
+                href="/static/feldroy-logo-square.svg",
+                download=True,
+            ),
+        )
     )
 
 
