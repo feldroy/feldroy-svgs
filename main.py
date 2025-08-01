@@ -17,6 +17,17 @@ def nav():
     )
 
 
+def footer():
+    return air.Footer(
+        air.P(
+            "© 2025 Feldroy. All rights reserved. This website is powered by ",
+            air.A("Air", href="https://air.feldroy.com"),
+            " 🌬️ View the source code on ",
+            air.A("GitHub", href="https://github.com/feldroy/feldroy-svgs")
+        )
+    )
+
+
 @app.page
 def index():
     return air.layouts.mvpcss(
@@ -33,7 +44,8 @@ def index():
                 href="/static/feldroy-logo-square.svg",
                 download=True,
             ),
-        )
+        ),
+        footer()
     )
 
 
@@ -42,7 +54,8 @@ def layout(request: air.Request, *content):
         raise Exception('First arg of layout needs to be an air.Request')
     return air.layouts.mvpcss(
         nav(),
-        *content
+        *content,
+        footer()
     )
 
 
