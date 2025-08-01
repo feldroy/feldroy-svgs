@@ -19,7 +19,7 @@ from pathlib import Path
 import cairosvg
 from PIL import Image
 
-SVG_FILE = "feldroy-logo-square.svg"
+SVG_FILE = "static/feldroy-logo-square.svg"
 OUTPUT_SIZE = 500  # px, for GitHub avatar
 OUTPUT_FILE = "feldroy-github-avatar.png"
 
