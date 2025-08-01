@@ -45,6 +45,13 @@ def index():
                 download=True,
             ),
         ),
+        air.P("Here is the SVG code for the above logo:"),
+        air.Pre(
+            air.Code(
+                Path("static/feldroy-logo-square.svg").read_text(),
+                lang="xml"
+            )
+        ),
         footer()
     )
 
