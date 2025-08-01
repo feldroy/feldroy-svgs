@@ -3,6 +3,7 @@ from air_markdown import Markdown
 from fastapi import HTTPException
 from fastapi import FastAPI
 from pathlib import Path
+from tags import FeldroyLogo
 
 app = air.Air()
 api = FastAPI()
@@ -52,6 +53,9 @@ def index():
                 lang="xml"
             )
         ),
+        air.P("Here it is used as an Air Tag:"),
+        FeldroyLogo(),
+        
         footer()
     )
 
