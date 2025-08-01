@@ -10,6 +10,8 @@ If you get errors about missing 'cairo' libraries on macOS, ensure you have run:
 and set environment variables if needed:
     export PKG_CONFIG_PATH="/opt/homebrew/lib/pkgconfig:/opt/homebrew/opt/libffi/lib/pkgconfig"
     export DYLD_LIBRARY_PATH="/opt/homebrew/lib"
+and install cairosvg and pillow into your virtual environment:
+    uv pip install cairosvg pillow
 """
 
 import sys
