@@ -1,3 +1,13 @@
+#!/usr/bin/env uv run --script
+
+# /// script
+# requires-python = ">=3.13"
+# dependencies = [
+#   "cairosvg",
+#   "pillow",
+# ]
+# ///
+
 """
 Generate a 500x500 PNG avatar from the Feldroy SVG logo for GitHub profile upload.
 
